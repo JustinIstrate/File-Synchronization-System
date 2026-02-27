@@ -34,9 +34,10 @@ Currently, the system implements three concrete storage locations:
 Make sure you have Python installed, then install the required dependencies:
 ```bash
 pip install watchdog
+
 ### Usage
 The script runs from the command line and requires two target locations. The locations are specified using prefixes (`folder:`, `zip:`, `ftp:`).
-
+ 
 **Basic Syntax:**
 ```bash
 python main.py <location_1> <location_2>
