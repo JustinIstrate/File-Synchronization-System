@@ -37,7 +37,7 @@ pip install watchdog
 
 ### Usage
 The script runs from the command line and requires two target locations. The locations are specified using prefixes (`folder:`, `zip:`, `ftp:`).
- 
+
 **Basic Syntax:**
 ```bash
 python main.py <location_1> <location_2>
@@ -63,4 +63,4 @@ python main.py folder:./website ftp://username:password@ftp.myserver.com/public_
 Once started, the script will perform an initial synchronization and then begin actively monitoring both locations for any future changes.
 
 ---
-**Developed by Iustin Istrate** - *Software Engineering Student*
+**Developed by Iustin Istrate** - *Computer Science Student*
